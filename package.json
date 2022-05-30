@@ -1,7 +1,7 @@
 {
-  "name": "grunt-htmlclean",
+  "name": "grunt-contrib-htmlclean",
   "version": "2.7.18",
-  "title": "grunt-htmlclean",
+  "title": "grunt-contrib-htmlclean",
   "description": "Simple and safety HTML/SVG cleaner to minify without changing its structure.",
   "keywords": [
     "gruntplugin",
@@ -37,12 +37,12 @@
   "scripts": {
     "test": "mocha"
   },
-  "homepage": "https://github.com/anseki/grunt-htmlclean",
+  "homepage": "https://github.com/killerbobjr/grunt-contrib-htmlclean",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anseki/grunt-htmlclean.git"
+    "url": "git://github.com/killerbobjr/grunt-contrib-htmlclean.git"
   },
-  "bugs": "https://github.com/anseki/grunt-htmlclean/issues",
+  "bugs": "https://github.com/killerbobjr/grunt-contrib-htmlclean/issues",
   "license": "MIT",
   "author": {
     "name": "anseki",

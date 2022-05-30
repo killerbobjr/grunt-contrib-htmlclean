@@ -1,11 +1,8 @@
-# grunt-htmlclean
+# grunt-contrib-htmlclean
 
-[![npm](https://img.shields.io/npm/v/grunt-htmlclean.svg)](https://www.npmjs.com/package/grunt-htmlclean) [![GitHub issues](https://img.shields.io/github/issues/anseki/grunt-htmlclean.svg)](https://github.com/anseki/grunt-htmlclean/issues) [![David](https://img.shields.io/david/anseki/grunt-htmlclean.svg)](package.json) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE-MIT)
+[![npm](https://img.shields.io/npm/v/grunt-contrib-htmlclean.svg)](https://www.npmjs.com/package/grunt-contrib-htmlclean) [![GitHub issues](https://img.shields.io/github/issues/killerbobjr/grunt-contrib-htmlclean.svg)](https://github.com/killerbobjr/grunt-contrib-htmlclean/issues) [![David](https://img.shields.io/david/killerbobjr/grunt-contrib-htmlclean.svg)](package.json) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE-MIT)
 
-This [Grunt](http://gruntjs.com/) plugin is wrapper of [htmlclean](https://github.com/anseki/htmlclean).
-
-* [gulp](http://gulpjs.com/) plugin: [gulp-htmlclean](https://github.com/anseki/gulp-htmlclean)
-* [webpack](https://webpack.js.org/) loader: [htmlclean-loader](https://github.com/anseki/htmlclean-loader)
+This [Grunt](http://gruntjs.com/) plugin is a rename of [grunt-htmlclean](https://github.com/anseki/grunt-htmlclean).
 
 **If you want to just clean files, [Command Line Tool](https://github.com/anseki/htmlclean-cli) is easy way.**
 
@@ -19,13 +16,13 @@ This plugin requires Grunt `~0.4.1`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-htmlclean --save-dev
+npm install grunt-contrib-htmlclean --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-htmlclean');
+grunt.loadNpmTasks('grunt-contrib-htmlclean');
 ```
 
 ## Usage
@@ -68,8 +65,8 @@ grunt.initConfig({
         // Select files which are newer than `dest`.
         handlerByFile: 'newFile',
         // Clean the selected files.
-        handlerByContent: require('grunt-htmlclean/node_modules/htmlclean')
-        //handlerByContent: require('htmlclean') // If htmlclean is already installed. (Not grunt-htmlclean)
+        handlerByContent: require('grunt-contrib-htmlclean/node_modules/htmlclean')
+        //handlerByContent: require('htmlclean') // If htmlclean is already installed. (Not grunt-contrib-htmlclean)
       },
       expand: true,
       cwd: 'develop/',
